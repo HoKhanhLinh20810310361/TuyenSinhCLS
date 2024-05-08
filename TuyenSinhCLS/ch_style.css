@@ -1,0 +1,155 @@
+#wrapper {
+    width: 100%;
+    height: max-content;
+}
+
+.content {
+    width: 90%;
+    height: 100%;
+    margin: 20px auto;
+    /* background-color: #509ce8; */
+}
+
+/* content left */
+.content .content_left {
+    width: 75%;
+    height: 100%;
+    /* background-color: pink; */
+    float: left;
+    line-height: 15px;
+}
+
+.content .content_left form {
+    width: 500px;
+    line-height: 35px;   
+    margin: 0 auto;
+    /* margin-left: 100px;  */
+}
+
+.content .content_left fieldset {
+    border-color: #F8B400;
+}
+
+.content .content_left .tksp {
+    padding: 3px;
+    margin-left: 60px;
+    border: 1px solid black;
+}
+
+.content .content_left legend, label {
+    margin-left: 30px;
+}
+
+.content .content_left select {
+    margin-left: 10px;
+    padding: 3px;
+}
+
+.content .content_left button {
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: orange;
+    border: 0;
+    margin: 10px 0 10px 200px;
+}
+
+.content .content_left li {
+    width: 23%;
+    height: max-content;
+    /* background-color: #509ce8; */
+    border: 1px solid black;
+    margin: 0 0 1.5% 1.5%;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.content .content_left li>p {
+    color: #F8B400;
+}
+
+.content .content_left li>a {
+    width: 100px;
+    height: 30px;
+    color: white;
+    display: block;
+    background-color: #243A73;
+    margin: 10px auto;
+}
+
+.content .content_left strike {
+    color: #7F8487;
+}
+
+/* content right */
+.content .content_right {
+    width: 22%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    float: left;
+    margin-left: 3%;
+}
+
+.content .content_right h4 {
+    /* width: 100%; */
+    background-color: #F73D93;
+    color: white;
+    padding: 10px 10px;
+    /* border: 3px solid whitesmoke; */
+}
+
+.content .content_right ul {
+    border: 3px solid whitesmoke;
+}
+
+.content .content_right li {
+    border-top: 3px solid whitesmoke;
+}
+
+.content .content_right .danhmuc li {
+    width: 97.5%;
+    height: 35px;
+    /* position: relative; */
+    /* background-color: #243A73; */
+}
+
+.content .content_right .danhmuc li>a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 30px;
+    padding-left: 10px;
+    /* background-color:aqua; */
+}
+
+.content .content_right .danhmuc li>a:hover {
+    color: #F73D93
+}
+
+.content .content_right .tintuc {
+    margin-top: 100px;
+}
+
+.content .content_right .tintuc li {
+    width: 97.5%;
+    height: 60px;
+    /* background-color: #243A73; */
+}
+
+.content .content_right .tintuc img {
+    float: left;
+    height: 50px;
+    border-radius:50%;
+    margin: 5px 10px;
+}
+
+.content .content_right .tintuc li>a {
+    margin: 7px 5px 0 80px;
+    /* display: inline-block; */
+}
+
+#dcchon {
+    color:#F73D93
+}

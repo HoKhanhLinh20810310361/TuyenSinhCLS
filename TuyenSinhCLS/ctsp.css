@@ -1,0 +1,237 @@
+#wrapper {
+    width: 100%;
+    height: max-content;
+}
+
+.content {
+    width: 90%;
+    height: 100%;
+    margin: 20px auto;
+    /* border: 1px solid gray; */
+    /* background-color: #509ce8; */
+}
+
+.content .left {
+    width: 75%;
+    height: auto;
+    float: left;
+    /* border: 1px solid gray; */
+}
+
+.content .left .anh {
+    width: 40%;
+    height: 500px;
+    /* background-color: aqua; */
+    float: left;
+}
+
+.content .left .slideshow {
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 30px;
+    /* -webkit-animation: slide 3s ease infinite; */
+}
+
+
+.content .left .anh .slide {
+    height: 370px;
+    position: absolute; 
+    opacity: 0;
+    visibility: hidden; 
+    /* margin-left: 300px;
+    /* border: 1px solid gray;   */
+}
+
+.content .left .anh .slide img {
+    height: 370px;
+}
+
+.content .left .anh .active {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.content .left .nut-slide ul {
+    /* width: 50px; */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 40px;
+    left: 150px;
+}
+
+.content .left .nut-slide li {
+    opacity: 0.8;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.content .left .nut-slide img {
+    width: 50px;
+    border: 1px solid gray; 
+}
+
+.nut-slide span{
+	color: gray;
+	font-size: 60px;
+	opacity: 0.6;
+}
+
+span#btn-prev{
+	position: absolute;
+	top: 60%;
+	left: 5%;
+	z-index: 10;
+	cursor: pointer;
+}
+span#btn-next{
+	position: absolute;
+	top: 60%;
+	right: 68%;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.bien-mat-ben-trai{
+    animation: bien-mat-ben-trai 1s forwards;
+}
+@-webkit-keyframes bien-mat-ben-trai{
+    /* from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    } */
+}
+.di-vao-ben-phai{
+    animation: di-vao-ben-phai 1s forwards;
+}
+@-webkit-keyframes di-vao-ben-phai{
+    /* from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    } */
+}
+/*xử lý nút prev*/
+.bien-mat-ben-phai{
+    animation: bien-mat-ben-phai 1s forwards;
+}
+@-webkit-keyframes bien-mat-ben-phai{
+    /* from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(100%);
+    } */
+}
+.di-vao-ben-trai{
+    animation: di-vao-ben-trai 1s forwards;
+}
+@-webkit-keyframes di-vao-ben-trai{
+    /* from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    } */
+}
+
+/*  */
+.content .left .motasp {
+    width: 50%;
+    height: 500px;
+    /* background-color: rebeccapurple; */
+    float: left;
+    margin-left: 10%;
+}
+
+.content .left .motasp h1{
+    font-size: 47px;
+    margin-top: 30px;
+    /* text-align: center; */
+}
+
+.content .left .motasp h3 {
+    font-size: 25px;
+    color: #F8B400;
+}
+
+.content .left .motasp strike {
+    color: #7F8487;
+}
+
+.content .left .motasp p {
+    line-height: 23px;
+}
+
+.content .left .motasp label {
+    margin-right: 20px;
+}
+
+.content .left .motasp button {
+    padding: 10px;
+    background-color: #243A73;
+    border: 0;
+    color: white;
+    margin-left: 30px;
+}
+
+.content .right {
+    width: 22%;
+    margin-left: 3%;
+    float: left;
+}
+
+.content .right h4 {
+    /* width: 100%; */
+    background-color: #F73D93;
+    color: white;
+    padding: 10px 10px;
+    /* border: 3px solid whitesmoke; */
+}
+
+.content .right ul {
+    border: 3px solid whitesmoke;
+}
+
+.content .right li {
+    border-top: 3px solid whitesmoke;
+    width: 97.5%;
+    height: 60px;
+}
+
+.content .right .splquan img {
+    width: 45px;
+    margin-left: 10px;
+    float: left;
+}
+
+.content .right .splquan a {
+    float: left;
+    line-height: auto;
+    margin: 10px 0 0 30px;
+    /* text-align: center; */
+}
+
+.content .right .splquan a>p {
+    color: #F8B400;
+}
+
+.content .right .tintuc ul {
+    margin-top: 10px;
+}
+
+.content .right .tintuc img {
+    float: left;
+    height: 50px;
+    border-radius:50%;
+    margin: 5px 10px;
+}
+
+.content .right .tintuc li>a {
+    margin: 7px 5px 0 80px;
+    /* display: inline-block; */
+}

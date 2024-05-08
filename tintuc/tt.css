@@ -1,0 +1,96 @@
+.content {
+    width: 90%;
+    height: auto;
+    margin: 35px auto;
+}
+
+.content .left {
+    width: 75%;
+    height: auto;
+    float: left;
+}
+
+.content .left li {
+    width: 30%;
+    height: 240px;
+    margin: 0 3% 50px 0;
+    float: left;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.content .left li>img {
+    width: 100%;
+}
+
+.content .left li>a {
+    font-size: 17px;
+    text-align: center;
+}
+
+.content .left li>p {
+    padding: 5px;
+}
+
+.content .left li>small {
+    margin-left: 100px;
+    color: gray;
+}
+
+.content .right {
+    width: 22%;
+    height: auto;
+    float: left;
+    margin-left: 3%;
+}
+
+.content .right h4 {
+    /* width: 100%; */
+    background-color: #F73D93;
+    color: white;
+    padding: 10px 10px;
+    /* border: 3px solid whitesmoke; */
+}
+
+.content .right ul {
+    border: 3px solid whitesmoke;
+}
+
+.content .right li {
+    border-top: 3px solid whitesmoke;
+    width: 97.5%;
+    height: 60px;
+}
+
+.content .right .splquan img {
+    width: 45px;
+    margin-left: 10px;
+    float: left;
+}
+
+.content .right .splquan a {
+    float: left;
+    line-height: auto;
+    margin: 10px 0 0 30px;
+    /* text-align: center; */
+}
+
+.content .right .splquan a>p {
+    color: #F8B400;
+}
+
+.content .right .tintuc ul {
+    margin-top: 30px;
+}
+
+.content .right .tintuc img {
+    float: left;
+    height: 50px;
+    border-radius:50%;
+    margin: 5px 10px;
+}
+
+.content .right .tintuc li>a {
+    margin: 7px 5px 0 80px;
+    /* display: inline-block; */
+}

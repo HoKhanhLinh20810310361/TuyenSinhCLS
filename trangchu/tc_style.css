@@ -1,0 +1,160 @@
+#wp-content {
+    width: 100%;
+    height: 1000px;
+}
+
+.content0 {
+    width: 100%;
+    height: 450px;
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+}
+
+.content0 .slideshow {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content0 .slideshow .slide {
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    top: 0px;
+    left: 0px;
+}
+
+.content0 .slideshow .slide1 {
+    background-image: url(../pic/trangchu/slider-shop-1.jpg);
+    background-position-x: -340px;
+    background-size: cover;
+    background-color: #73777B;
+    opacity: 1;
+    visibility: visible;
+}
+
+.content0 .slideshow .slide .left {
+    width: 43%;
+    height: 300px;
+    float: left;
+    margin-left: 7%;
+    position: absolute;
+    top: 0;
+    /* background-color: #F77E21; */
+}
+
+.content0 .slideshow .slide2 .left {
+    right: 7%;
+}
+
+.content0 .slideshow .slide .left img {
+    margin: 35px 0;
+}
+
+.content0 .slideshow .slide .right {
+    width: 36%;
+    height: 300px;
+    /* background-color: #73777B; */
+    float: left;
+    color: white;
+    /* margixn-left: 7%; */
+    position: absolute;
+    top: 0px;
+}
+
+.content0 .slideshow .slide1 .right {
+    right: 7%;
+}
+
+.content0 .slideshow .slide2 .right {
+    left: 7%;
+}
+
+.content0 .slideshow .slide .right .p1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 50px;
+}
+
+.content0 .slideshow .slide .right .p2 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.content0 .slideshow .slide .right button {
+    background-color: #F77E21;
+    border: 0;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.content0 .slideshow .slide2 {
+    background-image: url(../pic/trangchu/slider-shop-2.jpg);
+    background-size: cover;
+    background-position-x: -150px;
+    /* opacity: 2;
+    visibility: visible; */
+}
+
+.content0 .slideshow .slide1 .crop {
+    width: 100%;
+}
+
+.content0 .slideshow .slide2 .crop {
+    width: 100%;
+    height: 315px;
+}
+
+.content0 .slideshow .slide2 img {
+    float: right !important;
+}
+
+.content0 .nut-slide span{
+    font-size: 50px;
+    /* padding: 0 13px; */
+    color: white;
+    margin: 0 20px;
+    opacity: 0.7;
+    position: absolute;
+    top: 120px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.content0 .nut-slide span#btn-prev {
+    left: 1%;
+}
+
+.content0 .nut-slide span#btn-next {
+    right: 1%;
+}
+
+.content0 .nut-slide ul {
+    width: 50px;
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    left: 48%;
+    /* margin-left: 0px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.content0 .nut-slide ul li {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    opacity: 0.7;
+    /* list-style: none; */
+    border-radius: 50%;
+    cursor: pointer;
+}
